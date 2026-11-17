@@ -4,7 +4,7 @@ context('Capturar elementos para fazer uma ação', () => {
     it('Capturar os inputs', () => {
         cy.visit('https://angelofdiasg.tech/qaprogramador/ginasiodecapturia/')
         
-               
+        // Ultilizanod o Record do studio para criar testes     
         cy.get('[data-cy="input-username"]').click();
         cy.get('[data-cy="input-password"]').click();
         cy.get('[data-cy="input-pokeinit"]').click();

@@ -10,3 +10,6 @@ Baixar Dependências:
 
 Iniciar o cypress:
 -npx cypress open
+
+Criar relatório com o cypress:
+-npx cypress run
